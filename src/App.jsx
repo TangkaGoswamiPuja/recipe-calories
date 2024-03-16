@@ -1,13 +1,15 @@
 
 import './App.css'
+import Head from './components/Header/Head_img/Head'
+import Header from './components/Header/Header'
 
 function App() {
 
   return (
     <>
       
-      <h1 className='text-2xl bg-slate-500'>chef</h1>
-     
+     <Header></Header>
+     <Head></Head>
     </>
   )
 }
