@@ -10,8 +10,8 @@ const Head = () => {
       <h1 className="mb-5 text-6xl font-bold">Discover an exceptional cooking <br></br> class tailored for you!</h1>
       <p className="mb-5">Ignite your passion for food with a course tailored to your interests, from mastering regional flavors to aced knife skills.<br></br>  Level up your kitchen confidence and create restaurant-worthy dishes at home.<br></br> It is more than a meal it is an adventure in taste and a chance to connect with fellow food lovers..</p>
       <div className="flex gap-3 justify-center">
-      <button className="btn btn-success">Get Started</button>
-      <button className="btn btn-outline text-white">Get Started</button>
+      <button className="btn btn-success rounded-full">Explore Now</button>
+      <button className="btn btn-outline text-white rounded-full">Our Feedback</button>
       </div>
     </div>
     
