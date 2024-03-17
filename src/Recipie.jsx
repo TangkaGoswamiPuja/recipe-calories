@@ -18,7 +18,7 @@ const Recipie = ({recipe,wantToCook}) => {
 
 
 
-    <h3>Ingredients:{ingredients.length}</h3>
+    <h3 className='font-bold'>Ingredients:{ingredients.length}</h3>
     
       
      {recipe.ingredients.map((item, index)=>(<li key={index}>{item}</li>))} 
